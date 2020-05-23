@@ -22,7 +22,7 @@ long long get_fibonacci_partial_sum_naive(long long from, long long to)
         }
 
         long long new_current = next;
-        next = next + current;
+        next += current;
         current = new_current;
     }
 
